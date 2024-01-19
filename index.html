@@ -367,22 +367,6 @@
             line-height: 1.6;
         }
 
-        #offCanvas {
-            position: fixed;
-            top: 0;
-            right: -350px;
-            /* Starts off-screen to the right */
-            width: 400px;
-            height: 100%;
-            background-color: #4c3979;
-            padding: 20px;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-            color: white;
-            transition: right 0.3s;
-            /* Animate the 'right' property */
-            z-index: 99999;
-        }
-
         #mainContent {
             padding: 20px;
         }
@@ -1992,7 +1976,7 @@ responsive
         }
 
         #sideFormParent {
-            padding-top: 50%;
+            padding-top: 10%;
         }
 
         .font {
@@ -2007,6 +1991,89 @@ responsive
             height: 35px;
             font-size: 20px;
             border: none;
+        }
+
+        /* #offCanvas {
+            position: fixed;
+            top: 0;
+            right: -350px;
+            width: 400px;
+            height: 100%;
+            background-color: #4c3979;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: right 0.3s;
+            z-index: 99999;
+        } */
+
+        /* #containerContactForm {
+            display: flex;
+            position: fixed;
+            top: 0;
+            right: -355px;
+            width: 400px;
+            height: 100%;
+            color: white;
+            transition: right 0.3s;
+            z-index: 99999;
+
+        }
+
+        .fixed {
+            margin-top: 200px;
+            margin-bottom: 200px;
+            width: 50px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            background-color: #C29243;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .flex-item {
+            flex-grow: 1;
+            width: 400px;
+            height: 100%;
+            background-color: #0E5C64;
+            padding: 0px 30px 0px 10px;
+        } */
+
+        #contactForm {
+            position: absolute;
+            top: 155px;
+            right: 200px;
+            width: 380px;
+            height: 50%;
+            background-color: #4c3979;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: right 0.3s;
+            z-index: 5;
+        }
+
+        .sliderContent {
+            left: -140px !important;
+        }
+
+        #buttonDiv {
+            text-align: center;
+        }
+
+        .divForm {
+            padding-top: 10px;
+        }
+
+        .navbar {
+            z-index: 20 !important;
+        }
+
+        #contactFormFooter {
+            width: 330px;
+
         }
     </style>
 
@@ -2029,26 +2096,28 @@ responsive
 </head>
 
 <body>
-    <div style="z-index: 9999;position: absolute; top: 0;">
+    <!-- <div style="z-index: 9999;position: absolute; top: 0;">
         <button class="toggle-btn" onclick="toggleMenu()">&#9776; Toggle</button>
 
-    </div>
-    <div id="offCanvas">
-        <button class="toggle-btn closeButton" onclick="toggleMenu()">&#x292B;</button>
+    </div> -->
+    <!-- <div id="containerContactForm">
+        <div class="fixed">Click Here</div>
+        <div class="flex-item">
+            <form id="sideFormParent">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control sideForm font" id="name" aria-describedby="emailHelp"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Mobile Number</label>
+                    <input type="number" class="form-control sideForm font" id="exampleInputPassword1" placeholder="">
+                </div>
+                <button type="submit" class="btn sideForm button">Submit</button>
+            </form>
+        </div>
+    </div> -->
 
-        <form id="sideFormParent">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Name</label>
-                <input type="text" class="form-control sideForm font" id="name" aria-describedby="emailHelp"
-                    placeholder="Enter Your Name">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Mobile Number</label>
-                <input type="number" class="form-control sideForm font" id="exampleInputPassword1" placeholder="">
-            </div>
-            <button type="submit" class="btn sideForm button">Submit</button>
-        </form>
-    </div>
     <div class="preloader">
         <figure> <img src="wp-content/fav.png" alt="Image"> </figure>
     </div>
@@ -2171,12 +2240,29 @@ responsive
     <!-- Slider -->
     <header class="slider">
         <div class="main-slider">
+            <div id="contactForm">
+                <form id="sideFormParent">
+                    <div class="form-group divForm">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control sideForm font" id="name" aria-describedby="emailHelp"
+                            placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group divForm">
+                        <label for="exampleInputPassword1">Mobile Number</label>
+                        <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
+                            placeholder="">
+                    </div>
+                    <div id="buttonDiv" class="divForm">
+                        <button type="submit" class="btn sideForm button">Submit</button>
+                    </div>
+                </form>
+            </div>
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
                     <div class="slide-image wow fadeInUp" data-wow-delay="0.3s"
                         data-background="wp-content/uploads/2022/10/services-oldcare-big-2.jpg"></div>
-                    <div class="container">
+                    <div class="container sliderContent">
                         <h1>Empowering Lives with Private <br>
                             Home Health Care Solutions</h1>
                         <p>Experience the Revolution in Home Healthcare</p>
@@ -2186,7 +2272,7 @@ responsive
                 <div class="swiper-slide">
                     <div class="slide-image wow fadeInUp" data-wow-delay="0.3s"
                         data-background="wp-content/uploads/2022/10/slider-oldcare-9.jpg"></div>
-                    <div class="container">
+                    <div class="container sliderContent">
                         <h1>Pioneering a New Era of<br>
                             In-home Nursing Care</h1>
                         <p>Tailored to the Unique Needs of Your Loved Ones</p>
@@ -2677,24 +2763,23 @@ responsive
                 <div class="col-lg-4 cce wow fadeInUp" data-wow-delay="0.6s">
                     <div class="logo wow animated fadeInUp animated" data-wow-delay="0s"> <img
                             src="wp-content/geethanjali_homenursing_logo.png" alt="Image"> </div>
-                    <h6 class="widget-title">Get In Touch.</h6>
-                    <div class="footer-info cce wow animated fadeInUp animated" data-wow-delay="0.5s">
-                        <p><i class="flaticon-pin iconpfooter1 "></i>No 30 Surapet main road Kolathur Chennai 60009</p>
-                        <p class="fic"><i class="flaticon-call iconpfooter2 "></i>&nbsp;&nbsp;&nbsp; <a
-                                href="tel:+918428839892">+91 8428 83 9892</a></p><br>
-                        <p><i class="flaticon-email iconpfooter3 "></i>&nbsp;&nbsp;&nbsp; <a
-                                href="mailto:ghn@gmailcom">ghn@gmailcom</a></p><br>
+                    <div id="contactFormFooter">
+                        <form id="sideFormParentFooter">
+                            <div class="form-group divForm">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control sideForm font" id="name"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group divForm">
+                                <label for="exampleInputPassword1">Mobile Number</label>
+                                <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
+                                    placeholder="">
+                            </div>
+                            <div id="buttonDiv" class="divForm">
+                                <button type="submit" class="btn sideForm button">Submit</button>
+                            </div>
+                        </form>
                     </div>
-                    <!-- end footer-info -->
-                    <ul class="footer-social cce wow animated fadeInUp animated" data-wow-delay="0.5s">
-                        <li><a href="https://www.facebook.com/profile.php?id=100092648867313&amp;mibextid=ZbWKwL"><i
-                                    class="flaticon-facebook-1 iconsociaf"></i></a></li>
-
-                        <li><a href="#"><i class="flaticon-instagram-1 iconsociaf"></i></a></li>
-
-                        <li><a href="#"><i class="flaticon-twitter-1 iconsociaf"></i></a></li>
-
-                    </ul>
                 </div>
                 <div class="col-lg-4 cce">
                     <!-- end logo -->
@@ -2797,15 +2882,12 @@ responsive
     <!-- GetButton.io widget -->
     <script type="text/javascript">
         function toggleMenu() {
-            const offCanvas = document.getElementById('offCanvas');
-
-            console.log("offCanvas", offCanvas)
-
+            const offCanvas = document.getElementById('containerContactForm');
             // Toggle off-canvas menu visibility
-            if (offCanvas.style.right === '-350px' || offCanvas.style.right === '') {
-                offCanvas.style.right = '0';
+            if (offCanvas.style.right === '-355px' || offCanvas.style.right === '') {
+                offCanvas.style.right = '-20px';
             } else {
-                offCanvas.style.right = '-350px';
+                offCanvas.style.right = '-355px';
             }
         }
         (function () {
