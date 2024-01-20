@@ -31,20 +31,27 @@
     "use strict";
 
     var main = function() {
-      $('.hamburger-menu').click(function() {
-        $('.side-widget').animate({
-            left: "0px"}, 200,function() {
-                
-                $(document).on("click.menu",function(event) {
-                    var target = $(event.target);   console.log(target);
-                    if (!target.closest(".side-widget").length || target.closest(".closed").length) {
-                        closeMenu(function() {
-                            $(document).off("click.menu");
-                        });
-                    }           
-                })  
-            
-            });
+      $('.hamburger-menu').click(function(e) {
+        console.log("clicked")
+        var elements = document.getElementsByClassName('hamburger-menu')
+        for (var i = 0; i < elements.length; i++) {
+          // Get the data-id attribute value
+          var dataId = elements[i].getAttribute('data-id');
+          
+          // Do something with the dataId, like printing it
+          console.log(dataId);
+          if(dataId =="1"){
+          $('.side-widget').animate({
+                left: "0px"})
+                elements[i].setAttribute('data-id',"0")
+              }else{
+                closeMenu(function() {
+                  $(document).off("click.menu");
+              });
+              elements[i].setAttribute('data-id',"1")
+              }
+
+      }
       });
     
     
