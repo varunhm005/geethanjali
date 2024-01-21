@@ -1801,6 +1801,7 @@ responsive
             }
 
             .topImage {
+                height: auto !important;
                 width: 75% !important;
             }
 
@@ -1809,8 +1810,10 @@ responsive
             }
 
             #contactForm {
-                top: 345px !important;
-                right: 10px !important;
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 300px !important;
                 height: 40% !important;
             }
@@ -1844,6 +1847,10 @@ responsive
             .hamburger-menu {
                 width: 40px !important;
                 height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
             }
 
 
@@ -1856,6 +1863,7 @@ responsive
             }
 
             .topImage {
+                height: auto !important;
                 width: 75% !important;
             }
 
@@ -1864,8 +1872,10 @@ responsive
             }
 
             #contactForm {
-                top: 345px !important;
-                right: 35px !important;
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 300px !important;
                 height: 40% !important;
             }
@@ -1899,6 +1909,10 @@ responsive
             .hamburger-menu {
                 width: 40px !important;
                 height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
             }
 
 
@@ -1911,6 +1925,7 @@ responsive
             }
 
             .topImage {
+                height: auto !important;
                 width: 75% !important;
             }
 
@@ -1919,8 +1934,10 @@ responsive
             }
 
             #contactForm {
-                top: 345px !important;
-                right: 65px !important;
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 300px !important;
                 height: 40% !important;
             }
@@ -1949,11 +1966,16 @@ responsive
             .navbar .hamburger-menu {
                 background-color: #C29243;
                 border-radius: 20px;
+                left: -5%;
             }
 
             .hamburger-menu {
                 width: 40px !important;
                 height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
             }
 
 
@@ -1971,6 +1993,7 @@ responsive
             }
 
             .topImage {
+                height: auto !important;
                 width: 75% !important;
             }
 
@@ -1981,8 +2004,10 @@ responsive
             }
 
             #contactForm {
-                top: 345px !important;
-                right: 230px !important;
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 300px !important;
                 height: 40% !important;
             }
@@ -2083,8 +2108,10 @@ responsive
             }
 
             #contactForm {
-                top: 305px !important;
-                right: 350px !important;
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 300px !important;
                 height: 40% !important;
             }
@@ -2401,10 +2428,10 @@ responsive
 
         #contactForm {
             position: absolute;
-            top: 155px;
+            top: 240px;
             right: 200px;
             width: 380px;
-            height: 50%;
+            height: 45%;
             background-color: #4c3979;
             padding: 20px;
             box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -2530,7 +2557,7 @@ responsive
             <!-- Logo Menu Mobile -->
             <div class="logo" style="background-color: #4c3979;
     border-radius: 30px;"> <a href="index.html"><img class="sideBarLogo"
-                        src="wp-content/geethanjali_homenursing_logo.jpeg" alt="Image"></a> </div>
+                        src="wp-content/geethanjali_homenursing_logo.jpeg"  alt="Image"></a> </div>
 
             <div class="show-mobile">
                 <div class="site-menu">
@@ -2592,7 +2619,7 @@ responsive
             <!-- Logo Menu Desktop -->
             <div class="bgcirc">
                 <div class="logo"> <a href="index.html">
-                        <img class="topImage" src="wp-content/geethanjali_homenursing_logo.png" alt="Image">
+                        <img class="topImage" src="wp-content/geethanjali_homenursing_logo.png"  alt="Image">
 
                     </a>
                 </div>
@@ -3066,6 +3093,15 @@ responsive
 
     <!--Yorumlar-->
     <section class="yorumlar-alani-sayfa">
+        <div class="col-12 wow animated fadeIn animated" data-wow-delay="0.5s">
+            <div class="h-yazi-ortalama h-yazi-margin-orta-3">
+                <div class="icon wow fadeInUp" data-wow-delay="0.5s"><i class="flaticon-review"></i></div>
+                <h2 class="h2-baslik-hizmetler-yorum wow fadeInUp" data-wow-delay="0.5s"> What Are Our Customers Saying ? </h2> 
+            </div>
+                <p class="h2-baslik-hizmetler-yorum__yorum wow fadeInUp" data-wow-delay="0.5s">
+                Opinions from our happy customers.                </p>
+                <div class="bosluk3a"></div>
+            </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4">
             <div class="col">
                 <div class="card cardStyle">
@@ -3148,30 +3184,10 @@ responsive
                 <div class="col-lg-4 cce wow fadeInUp" data-wow-delay="0.6s">
                     <div class="logo wow animated fadeInUp animated" data-wow-delay="0s"> <img
                             src="wp-content/geethanjali_homenursing_logo.png" alt="Image"> </div>
-                    <div id="contactFormFooter">
-                        <form id="sideFormParentFooter">
-                            <div class="form-group divForm">
-                                <label for="exampleInputEmail1">Name</label>
-                                <input type="text" class="form-control sideForm font" id="name"
-                                    aria-describedby="emailHelp" placeholder="Enter Your Name">
-                            </div>
-                            <div class="form-group divForm">
-                                <label for="exampleInputPassword1">Mobile Number</label>
-                                <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
-                                    placeholder="">
-                            </div>
-                            <div id="buttonDiv" class="divForm">
-                                <button type="submit" class="btn sideForm button">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4 cce middleElement">
-                    <!-- end logo -->
-                    <p style="text-align: justify;">Geethanjali Home Nursing Services invites you to embrace healing in
-                        its purest form: right within your sanctuary - your Home. Imagine a place where Skilled hands
-                        meet Compassionate hearts, where Recovery unfolds amidst Familiar Scents and Cherished Memories.
-                    </p>
+                            <p style="text-align: justify;">Geethanjali Home Nursing Services invites you to embrace healing in
+                                its purest form: right within your sanctuary - your Home. Imagine a place where Skilled hands
+                                meet Compassionate hearts, where Recovery unfolds amidst Familiar Scents and Cherished Memories.
+                            </p>
                 </div>
                 <!-- end col-3 -->
                 <div class="col-lg-4 cce wow fadeInUp" data-wow-delay="0.6s">
@@ -3196,6 +3212,27 @@ responsive
                         <li><a href="#"><i class="flaticon-twitter-1 iconsociaf"></i></a></li>
 
                     </ul>
+                </div>
+
+                <div class="col-lg-4 cce middleElement">
+                    <!-- end logo -->
+                    <div id="contactFormFooter">
+                        <form id="sideFormParentFooter">
+                            <div class="form-group divForm">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control sideForm font" id="name"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group divForm">
+                                <label for="exampleInputPassword1">Mobile Number</label>
+                                <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
+                                    placeholder="">
+                            </div>
+                            <div id="buttonDiv" class="divForm">
+                                <button type="submit" class="btn sideForm button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
 

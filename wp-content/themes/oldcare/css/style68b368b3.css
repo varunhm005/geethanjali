@@ -14036,7 +14036,7 @@ li.menu3 {
   line-height: 60px;
   text-align: center;
   position: absolute;
-  right: 646px;
+  right: 40%;
   top: 86%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   z-index: 3;
@@ -14060,7 +14060,7 @@ li.menu3 {
   line-height: 60px;
   text-align: center;
   position: absolute;
-  left: 643px;
+  left: 40%;
   top: 86%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   z-index: 3;
@@ -14742,11 +14742,11 @@ p.footerp {
     padding-top: 167px; }
 
   .button-prev1 {
-    left: 601px;
+    left: 0px;
     top: 84%; }
 
   .button-next1 {
-    right: 601px;
+    right: 0px;
     top: 84%; }
 
   .countt {
@@ -15041,11 +15041,11 @@ p.footerp {
     margin-top: 15rem; }
 
   .button-prev1 {
-    left: 601px;
+    left: 0px;
     top: 84%; }
 
   .button-next1 {
-    right: 601px;
+    right: 0px;
     top: 84%; }
 
   .countt {
@@ -15408,11 +15408,11 @@ p.footerp {
     flex-wrap: wrap; }
 
   .button-prev1 {
-    left: 601px;
+    left: 0px;
     top: 84%; }
 
   .button-next1 {
-    right: 601px;
+    right: 0px;
     top: 84%; }
 
   .countt {
