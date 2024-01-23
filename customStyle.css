@@ -1,0 +1,2138 @@
+        .swiper-pagination-bullet {
+            margin-left: 5px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #4c3979;
+        }
+
+        .slider .main-slider .swiper-slide .container a {
+            color: #ffffff;
+            background: #4c3979;
+        }
+
+        .slider .main-slider .swiper-slide .container a:hover {
+            background: #1c635b;
+        }
+
+        .navbar .navbar-button a {
+            color: #4c3979;
+            border: 2px solid #4c3979;
+        }
+
+        .navbar .navbar-button a:hover {
+            color: #4c3979;
+        }
+
+        .slider .button-next:hover {
+            background: #1c635b;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        .price-list-price {
+            color: #4c3979;
+        }
+
+        .price-list-separator {
+            border-bottom-color: #4c3979;
+        }
+
+        .custom-button {
+            background: #4c3979;
+        }
+
+        .counter-box h6:after {
+            display: none;
+        }
+
+        .hamburger-menu span {
+            background: #4c3979;
+        }
+
+        .cardContent h2 {
+            background: #4c3979;
+        }
+
+        .custom-button:hover {
+            background: #1c635b;
+        }
+
+        .custom-button12 {
+            background: #4c3979;
+        }
+
+        .iconsocia:hover {
+            color: #4c3979;
+        }
+
+        .preloader figure {
+            border: 1px solid #4c3979;
+        }
+
+        .preloader figure:after {
+            border-top: 1px solid #1c635b;
+        }
+
+        .wpcf7-validates-as-date {
+            border-bottom: 0.3rem solid #1c635b;
+        }
+
+        .side-widget .address a {
+            border: 1px solid #4c3979;
+            border-radius: 23rem;
+        }
+
+        .side-widget .address a:hover {
+            border: 1px solid #4c3979;
+        }
+
+        .custom-button12:hover {
+            background: #1c635b;
+        }
+
+        .custom-button-form {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .menueffect a:hover {
+            color: #1c635b;
+        }
+
+        .slider .button-prev {
+            background: #4c3979;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        .slider .button-next {
+            background: #4c3979;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        .slider .button-prev:hover {
+            background: #1c635b;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        .content-section {
+            background: #4c3979;
+        }
+
+        .component-systemTabs .cards .card img {
+            border: 6px solid #ffffff;
+        }
+
+        input#wp-block-search__input-1 {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .content-section.bottom-dark-spacing:after {
+            background: #4c3979;
+        }
+
+        .section-title h2 {
+            color: #4c3979;
+        }
+
+        .image-box .time {
+            color: #4c3979;
+        }
+
+        .menueffect a:before {
+            background-color: #1c635b;
+            display: none;
+        }
+
+        .side-content form button[type="submit"] {
+            color: #4c3979;
+        }
+
+        .side-image .side-timetable li b {
+            color: #4c3979;
+        }
+
+        .side-member figcaption {
+            background: #4c3979;
+        }
+
+        .custom-progress span {
+            color: #4c3979;
+        }
+
+        .custom-progress .progress-bar .progress {
+            background: #4c3979;
+        }
+
+        .tab-wrapper .tab-nav li.active a {
+            background: #4c3979;
+        }
+
+        .tab-wrapper .tab-nav li.active a:hover {
+            background: #1c635b;
+        }
+
+        .tab-wrapper .tab-item .tab-inner {
+            background: #4c3979;
+        }
+
+        .tab-wrapper .tab-item .tab-inner ul li span {
+            color: #4c3979;
+        }
+
+        .service-box {
+            background: #4c3979;
+        }
+
+        .service-box:before {
+            background: #4c3979;
+        }
+
+        .image-overlap-box figure {
+            background: #4c3979;
+        }
+
+        .image-overlap-box .content a:hover {
+            color: #1c635b;
+        }
+
+        .video {
+            background: #4c3979;
+        }
+
+        .video a {
+            color: #4c3979;
+        }
+
+        .class-box figure {
+            background: #fff;
+        }
+
+        .text-box h5 {
+            color: #4c3979;
+        }
+
+        .recent-news figure {
+            background: #4c3979;
+        }
+
+        .recent-news .content h3 a {
+            color: #4c3979;
+        }
+
+        .recent-news .content small span {
+            background: #4c3979;
+        }
+
+        .blog-box figure {
+            background: #4c3979;
+        }
+
+        .blog-box .content h3 a {
+            color: #4c3979;
+        }
+
+        .blog-box .content blockquote {
+            color: #4c3979;
+        }
+
+        .sidebar .widget .widget-title {
+            color: #4c3979;
+        }
+
+        .sidebar .widget .widget-title:before {
+            background: #4c3979;
+        }
+
+        .sidebar .widget form input[type="submit"] {
+            background: #4c3979;
+        }
+
+        .sidebar .widget .categories li a {
+            color: #4c3979;
+        }
+
+        .branch-box h6 {
+            color: #4c3979;
+        }
+
+        .branch-box a {
+            color: #4c3979;
+        }
+
+        .member-box figcaption {
+            background: #4c3979;
+        }
+
+        .icon {
+            background: #4c3979;
+        }
+
+        .iconsv {
+            background: #4c3979;
+        }
+
+        .iconk {
+            color: #f5f5f5;
+        }
+
+        li a:hover {
+            color: #4c3979;
+        }
+
+        .iconk:hover {
+            color: #1c635b;
+        }
+
+        .sidebar-service {
+            background: #4c3979;
+        }
+
+        span.menu-service {
+            background: #4c3979;
+        }
+
+        span.menu-service:hover {
+            background: #1c635b;
+        }
+
+        span.menu-service.menuactive {
+            background: #1c635b;
+        }
+
+        .iconleft {
+            color: #4c3979;
+        }
+
+        .iconleft:hover {
+            color: #1c635b;
+        }
+
+        a.menucolor {
+            color: #4c3979;
+        }
+
+        a.menucolor:hover {
+            color: #1c635b;
+        }
+
+        .pagination .page-item .page-link {
+            color: #4c3979;
+        }
+
+        .footer .footer-info a {
+            color: #ffffff;
+            font-size: 15px;
+        }
+
+        .footer .footer-social li a:hover {
+            background: #1c635b;
+        }
+
+        .iconk {
+            color: #4c3979;
+        }
+
+        .iconk:hover {
+            color: #1c635b;
+        }
+
+        .iconleft {
+            color: #4c3979;
+        }
+
+        .iconk {
+            color: #4c3979;
+        }
+
+        .iconk:hover {
+            color: #1c635b;
+        }
+
+        .iconleft {
+            color: #4c3979;
+        }
+
+        span.menu-service {
+            color: #4c3979;
+        }
+
+        textarea#comment {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        input#author {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        input#email {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        input#url {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .paketler2__on--arkayazi-1 {
+            background: linear-gradient(to right bottom, #4c3979, #1c635bd7);
+        }
+
+        .form__input {
+            border-bottom: 0.3rem solid #4c3979;
+            border-radius: 23rem;
+            padding: 30px;
+        }
+
+        .form__input:focus {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .form__input:focus:invalid {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .form__radio-buton {
+            border: 0.5rem solid #4c3979;
+        }
+
+        .form__radio-buton::after {
+            background-color: #4c3979;
+            border-radius: 23rem;
+        }
+
+        .form-popup__input {
+            border-bottom: 0.3rem solid #4c3979;
+            border-radius: 23rem;
+        }
+
+        .form-popup__input:focus {
+            border-bottom: 0.3rem solid #4c3979;
+            border-radius: 23rem;
+        }
+
+        .form-popup__input:focus:invalid {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .hizmetler-kutu--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .ozellik-kutu--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .post-kutu--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .yorum-kutu--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .ozellik-kutu-iletisim--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .baslik-4--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .yukaricik {
+            background-image: linear-gradient(to right bottom, #4c3979, #1c635b);
+        }
+
+        .footer-404 {
+            background-image: linear-gradient(to right bottom, #4c3979, #1c635b);
+        }
+
+        .form-alani {
+            background-image: linear-gradient(to right bottom, #4c3979, #1c635b);
+        }
+
+        .h2-baslik-hizmetler {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .h2-baslik-hizmetler__paragraf {
+            color: #4c3979;
+        }
+
+        .h2-baslik-hizmetler-2 {
+            background-image: linear-gradient(to right, #4c3979, #4c3979);
+        }
+
+        .side-widget small {
+            color: #4c3979;
+        }
+
+        .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: #4c3979;
+        }
+
+        .swiper-pagination .swiper-pagination-bullet {
+            background: #4c3979e6;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4c3979;
+        }
+
+        .custom-buttonw1 {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .iconsocia {
+            color: #4c3979;
+        }
+
+        .paketler3__gorsel--1 {
+            background-image: linear-gradient(to right bottom, #4c3979, #1c635b)
+        }
+
+        .paketler3__on--arkayazi-1 {
+            background-image: linear-gradient(to right bottom, #4c3979, #1c635b)
+        }
+
+        p.countb {
+            background: #4c3979;
+        }
+
+        .icontops {
+            background: #4c3979;
+            border-radius: 10px;
+        }
+
+        p.footerp {
+            color: #ffffff;
+        }
+
+        input#submit {
+            background: #4c3979;
+        }
+
+        .custom-buttonw:hover {
+            background: #4c3979;
+        }
+
+        .comment-meta.commentmetadata a:hover {
+            color: #1c635b;
+        }
+
+        a.comment-edit-link:hover {
+            color: #1c635b;
+        }
+
+        p.logged-in-as a:hover {
+            color: #1c635b;
+        }
+
+        .menu-item a:hover {
+            color: #1c635b;
+        }
+
+        li a {
+            color: #4c3979;
+        }
+
+        .tag-cloud-link {
+            color: #4c3979;
+        }
+
+        .tagcloud a:hover {
+            color: #1c635b;
+        }
+
+        li#recent-posts-5 a:hover {
+            color: #1c635b;
+        }
+
+        input#s {
+            border-bottom: 0.3rem solid #1c635b;
+        }
+
+        .telh {
+            background: none;
+        }
+
+        .iconsociai {
+            color: #4c3979;
+        }
+
+        .iconsociai:hover {
+            color: #4c3979;
+        }
+
+        ::selection {
+            background-color: #4c3979;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #1c635b;
+        }
+
+        .ozellik-kutu-yorumlar--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .services-kutu1--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .services-kutu2--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        .services-kutu3--icon {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+        }
+
+        b.fn a:hover {
+            color: #1c635b;
+        }
+
+        li a:hover {
+            color: #1c635b;
+        }
+
+        select {
+            border-bottom: 0.3rem solid #4c3979;
+        }
+
+        .wp-block-latest-posts__list a:hover {
+            color: #4c3979;
+        }
+
+        #tabs li {
+            color: #ffffff;
+            border-bottom: 4px solid #4c3979;
+        }
+
+        .custom-buttonf {
+            background: #4c3979;
+        }
+
+        .custom-buttonf:hover {
+            background: #1c635b;
+        }
+
+        .beer-slider {
+            border: 4px solid #4c3979;
+        }
+
+        .button-next1 {
+            color: #4c3979;
+            border: 2px solid #4c3979;
+            border-radius: 3rem;
+        }
+
+        .button-next1:hover {
+            background: #4c3979;
+        }
+
+        .button-prev1 {
+            color: #4c3979;
+            border: 2px solid #4c3979;
+            border-radius: 3rem;
+        }
+
+        .button-prev1:hover {
+            background: #4c3979;
+        }
+
+        .footer .footer-social li a {
+            background: #4c3979;
+            width: 35px !important;
+            height: 35px !important;
+        }
+
+        .wp-post-image {
+            height: 100%;
+            border-radius: 100px;
+        }
+
+        .services-kutu2--yazi1 {
+            width: 100%;
+        }
+
+        .footer .footer-menu li a {
+            color: #ffffff;
+        }
+
+        .footer .footer-menu li:before {
+            background: #ffffff;
+            border-radius: 100px;
+        }
+
+        .iconserv {
+            color: #4c3979;
+            margin-top: 27rem;
+            margin-bottom: -10px;
+        }
+
+        .iconserv:hover {
+            color: #1c635b;
+            margin-top: 27rem;
+            margin-bottom: -10px;
+        }
+
+        h3.oldcares a {
+            font-family: Satoshi Black;
+            font-size: 20px;
+            color: #4c3979;
+        }
+
+        h3.oldcaresd {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            color: #000000;
+            text-align: center;
+        }
+
+        p.oldcaresd {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            color: #000000;
+            text-align: center;
+        }
+
+        .dep:hover {}
+
+        .bgcirc:before {
+            background-color: #4c3979;
+        }
+
+        .bgcirc2:before {
+            background-color: #4c3979;
+        }
+
+        /* text primary */
+        .cardContent h2 {
+            font-family: Satoshi Regular;
+        }
+
+        .component-systemTabs .cards .card .cardContent button {
+            background: #4c3979;
+            font-family: Satoshi Regular;
+        }
+
+        .person {
+            color: #4c3979;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .ozellik-kutu-iletisim--yazi {
+            color: #4c3979;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .footer-info p {
+            color: #ffffff;
+            font-family: Satoshi Regular;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        p {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .h2-baslik-hizmetler-21__paragraf {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paketler3__icerik ul li {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        body {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-info {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        ul.post-categories a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        span.date {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        span.category {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        span.tt {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-info a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-sol-beyaz a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-sol-beyaz-orta a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-ahp a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-pdetay a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-404 a {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .h2-baslik-hizmetler-yorum__yorum {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .testimon-text {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .post-kutu p {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .services-kutu2--yazi1 {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .h2-baslik-hizmetler-2__paragraf {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .paragraf-popup {
+            color: #212529;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        ul.post-categories {
+            color: #4c3979;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        .services-kutu2--yazi {
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        /* headings */
+        .countt {
+            background: #4c3979;
+            font-family: Satoshi Black;
+        }
+
+        .countb {
+            background: #4c3979;
+            font-family: Satoshi Black;
+        }
+
+        .component-systemTabs .cards .card .cardContent h2 {
+            color: #4c3979;
+            font-size: 21px;
+            padding: 5px;
+            margin-top: 25rem;
+            font-family: Satoshi Black;
+        }
+
+        .h2-baslik-anasayfa {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            border-bottom: .1rem solid #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-anasayfa-ozel {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-hizmetler-223 {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-anasayfa-blog {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-ahb {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-bottom {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-404 {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-footer {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-iletisim-ozel {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-popup {
+            background-image: linear-gradient(to right, #4c3979, #1c635b);
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-3-h {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-33 {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-star {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-hizmetler-yorum {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-3s {
+            color: #4c3979;
+            font-family: Satoshi Black;
+        }
+
+        .baslik-3white {
+            font-family: Satoshi Black;
+        }
+
+        .baslik-orta {
+            font-size: 23px;
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-weight: 700;
+        }
+
+        .baslik-4 {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-weight: 700;
+        }
+
+        .slider .main-slider .swiper-slide .container h1 {
+            font-family: Satoshi Black;
+            color: #ffffff;
+        }
+
+        .slider .main-slider .swiper-slide .container p {
+            font-family: Satoshi Black;
+            color: #ffffff;
+        }
+
+        .slider .main-slider .swiper-slide .container a {
+            font-family: Satoshi Black;
+            border-radius: 100px;
+        }
+
+        .slider .main-slider .swiper-slide .container a:hover {
+            font-family: Satoshi Black;
+            border-radius: 100px;
+        }
+
+        .custom-button {
+            font-family: Satoshi Black;
+        }
+
+        .custom-buttonw {
+            font-family: Satoshi Black;
+        }
+
+        .baslik-sol {
+            font-family: Satoshi Black;
+        }
+
+        .member-box figcaption h6 {
+            font-family: Satoshi Black;
+        }
+
+        .member-box figcaption p {
+            font-family: Satoshi Black;
+        }
+
+        .h2-baslik-hizmetler-2 {
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-hizmetler-21 {
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .h2-baslik-hizmetler-2111 {
+            color: #4c3979;
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-3-service {
+            font-family: Satoshi Black;
+        }
+
+        .paketler3__pr-yazi {
+            font-family: Satoshi Black;
+        }
+
+        .paketler3__pr-degeri {
+            font-family: Satoshi Black;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .baslik-3 {
+            font-size: 23px;
+            color: #4c3979;
+            font-family: Satoshi Black;
+        }
+
+        .footer .widget-title {
+            color: #ffffff;
+            font-family: Satoshi Black;
+            font-weight: 700;
+        }
+
+        .page-header .container h2 {
+            color: #fff;
+            font-family: Satoshi Black;
+        }
+
+        .page-header .container p {
+            color: #fff;
+            font-family: Satoshi Black;
+        }
+
+        .page-header .container a {
+            color: #fff;
+            font-family: Satoshi Black;
+        }
+
+        .page-header .container a:hover {
+            color: #fff;
+            font-family: Satoshi Black;
+        }
+
+        .navbar .site-menu ul li a {
+            font-family: Satoshi Black;
+            color: #ffffff;
+            line-height: 10px;
+            background: #4c3979;
+            border-radius: 100px;
+            padding: 15px;
+        }
+
+        .page-header {
+            border-bottom: 12px solid #4c3979;
+        }
+
+        .navbar .site-menu ul li a:hover {
+            color: #ffffff;
+            background: #1c635b;
+        }
+
+        .navbar .site-menu ul li {
+            display: flex;
+        }
+
+        .menueffect * {
+            box-sizing: revert;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #ffffff;
+            background: #4c3979;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            background: #1c635b;
+        }
+
+        .dropdown-menu {
+            min-width: 16rem;
+            border-radius: 43px;
+        }
+
+        .navbar-expand-md .navbar-nav .dropdown-menu {
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .iclist {
+            color: #4c3979;
+            font-size: 40px;
+        }
+
+        .iclist:hover {
+            color: #1c635b;
+            font-size: 40px;
+        }
+
+        span.listicp {
+            margin-top: 16px;
+        }
+
+        ul.bezlist {
+            width: 100%;
+            display: grid;
+        }
+
+        ul#menu-main-menu>li+li:before {
+            content: "\e917";
+            font-size: 0px;
+            font-family: "icomoon" !important;
+            position: absolute;
+            top: 25px;
+            left: 24px;
+            width: 10px;
+            height: 10px;
+            background: #4c3979;
+            border-radius: 50%;
+            opacity: 1;
+            transform: translateX(-30px);
+            transition: all 0.2s ease-in-out;
+        }
+
+        .sericon:before,
+        .sericon:after {
+            background: #4c3979;
+        }
+
+        .menueffect a:after {
+            display: none;
+        }
+
+        .slider .main-slider .swiper-slide .slide-image {
+            border-bottom: 12px solid #4c3979;
+        }
+
+        /* text secondary */
+        ul.post-categories a:hover {
+            color: #1c635b;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+        }
+
+        .reply a:hover {
+            color: #1c635b;
+        }
+
+        cite.fn a:hover {
+            color: #1c635b;
+        }
+
+        time:hover {
+            color: #1c635b;
+        }
+
+        /* service background */
+        .footer {
+            background: #4c3979;
+            border-top: 12px solid #1c635b61;
+        }
+
+        .serviceb-alani {
+            background: transparent url(wp-content/uploads/2022/10/oldcare-services-bg-9.jpg) center center/cover no-repeat scroll;
+        }
+
+        .yorumlar-alani-sayfa {
+            background: transparent url(wp-content/uploads/2022/10/comm-bg2.jpg) center center/cover no-repeat scroll;
+        }
+
+        /*
+responsive
+*/
+
+        .hamburger-menu span:nth-child(1) {
+            top: 10px !important;
+            width: 70% !important;
+            left: 5px;
+        }
+
+        .hamburger-menu span:nth-child(2) {
+            top: 18px !important;
+            width: 20px !important;
+            left: 5px;
+        }
+
+        .hamburger-menu span:nth-child(3) {
+            top: 25px !important;
+            width: 70% !important;
+            left: 5px;
+        }
+
+        @media only screen and (min-width: 1199px),
+        only screen and (max-width: 1199px) {
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        }
+
+        @media only screen and (min-width: 991px),
+        only screen and (max-width: 1180px) {
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 374px) {
+
+            .logo {
+                width: 270px;
+            }
+
+            .topImage {
+                height: auto !important;
+                width: 75% !important;
+            }
+
+            #contactFormFooter {
+                width: 215px !important;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 300px !important;
+                height: 38% !important;
+            }
+
+            .sliderContent {
+                left: -8px !important;
+                top: -110px !important;
+            }
+
+            #sideFormParent {
+                padding: 5% !important;
+            }
+
+            .footer {
+                padding-top: 0px;
+            }
+
+            #contactFormFooter {
+                width: 285px !important;
+            }
+
+            .card-deck {
+                padding: 0px 10px 100px 10px !important;
+            }
+
+            .navbar .hamburger-menu {
+                background-color: #C29243;
+                border-radius: 20px;
+            }
+
+            .hamburger-menu {
+                width: 40px !important;
+                height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
+            }
+
+
+        }
+
+        @media only screen and (min-width: 375px) and (max-width: 425px) {
+
+            .logo {
+                width: 270px;
+            }
+
+            .topImage {
+                height: auto !important;
+                width: 75% !important;
+            }
+
+            #contactFormFooter {
+                width: 215px !important;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 300px !important;
+                height: 38% !important;
+            }
+
+            .sliderContent {
+                left: -8px !important;
+                top: -110px !important;
+            }
+
+            #sideFormParent {
+                padding: 5% !important;
+            }
+
+            .footer {
+                padding-top: 0px;
+            }
+
+            #contactFormFooter {
+                width: 285px !important;
+            }
+
+            .card-deck {
+                padding: 0px 10px 100px 10px !important;
+            }
+
+            .navbar .hamburger-menu {
+                background-color: #C29243;
+                border-radius: 20px;
+            }
+
+            .hamburger-menu {
+                width: 40px !important;
+                height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
+            }
+
+
+        }
+
+        @media only screen and (min-width: 425px) and (max-width: 765px) {
+
+            .logo {
+                width: 270px;
+            }
+
+            .topImage {
+                height: auto !important;
+                width: 75% !important;
+            }
+
+            #contactFormFooter {
+                width: 215px !important;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 300px !important;
+                height: 35% !important;
+            }
+
+            .sliderContent {
+                left: -8px !important;
+                top: -110px !important;
+            }
+
+            #sideFormParent {
+                padding: 5% !important;
+            }
+
+            .footer {
+                padding-top: 0px;
+            }
+
+            #contactFormFooter {
+                width: 285px !important;
+            }
+
+            .card-deck {
+                padding: 0px 10px 100px 10px !important;
+            }
+
+            .navbar .hamburger-menu {
+                background-color: #C29243;
+                border-radius: 20px;
+                left: -5%;
+            }
+
+            .hamburger-menu {
+                width: 40px !important;
+                height: 40px !important;
+            }
+
+            .sideBarLogo {
+                display: none !important;
+            }
+
+
+        }
+
+        @media only screen and (min-width: 765px) and (max-width: 1024px) {
+
+
+            .sideBarLogo {
+                display: none !important;
+            }
+
+            .logo {
+                width: 270px;
+            }
+
+            .topImage {
+                height: auto !important;
+                width: 75% !important;
+            }
+
+            #contactFormFooter {
+                position: relative !important;
+                left: 185px !important;
+                width: 215px !important;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 75% !important;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 300px !important;
+                height: 38% !important;
+            }
+
+            .sliderContent {
+                left: -8px !important;
+                top: -110px !important;
+            }
+
+            #sideFormParent {
+                padding: 5% !important;
+            }
+
+            .footer {
+                padding-top: 0px;
+            }
+
+            #contactFormFooter {
+                width: 285px !important;
+            }
+
+            .card-deck {
+                padding: 0px 10px 100px 10px !important;
+            }
+
+            .navbar .hamburger-menu {
+                background-color: #C29243;
+                border-radius: 20px;
+            }
+
+            .hamburger-menu {
+                width: 40px !important;
+                height: 40px !important;
+                left: 30px !important;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1300px) {
+            .headerContainer{
+                max-width: 100%;
+            }
+            .navbar .site-menu{
+                /* margin-left: 0; */
+                /* padding: 0; */
+            }
+
+            .menueffect {
+                width: max-content !important;
+            }
+
+            .bgcirc:before {
+                width: 35% !important;
+            }
+
+            .bgcirc2:before {
+                width: 35% !important;
+            }
+
+            .middleElement {
+                padding-top: 130px;
+            }
+
+
+            .sideBarLogo {
+                display: none !important;
+            }
+
+            .logo {
+                width: 270px;
+            }
+
+            .topImage {
+                width: 75% !important;
+            }
+
+            #contactFormFooter {
+                position: relative !important;
+                left: 0px !important;
+                width: 215px !important;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 75% !important;
+                left: 50% !important;
+                transform: translate(-50%, -50%);
+                width: 300px !important;
+                height: 40% !important;
+            }
+
+            .sliderContent {
+                left: -8px !important;
+                top: -110px !important;
+            }
+
+            #sideFormParent {
+                padding: 5% !important;
+            }
+
+            .footer {
+                padding-top: 0px;
+            }
+
+            #contactFormFooter {
+                width: 285px !important;
+            }
+
+            .card-deck {
+                padding: 0px 10px 100px 10px !important;
+            }
+
+            .navbar .hamburger-menu {
+                background-color: #C29243;
+                border-radius: 20px;
+            }
+
+            .hamburger-menu {
+                width: 40px !important;
+                height: 40px !important;
+                left: 30px !important;
+                /* display: none; */
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            .footerRow {
+                position: relative;
+                top: 80px;
+            }
+
+        }
+
+        /* @media (min-width: 820px) and (max-width: 820px) {
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        }
+
+        @media (min-width: 767px) and (max-width: 850px) {
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        } */
+
+
+        @media (min-width: 1300px) and (max-width: 1650px) {
+
+            #contactForm {
+            position: absolute;
+            top: 50% !important;
+            left: 40%;
+            width: 300px;
+            height: 40%;
+            background-color: #4c3979;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: right 0.3s;
+            z-index: 5;
+            border-radius: 25px;
+        }
+
+        .sliderContent {
+            left: 0px !important;
+    top: -110px !important;
+        }
+
+            .headerContainer{
+                max-width: 100%;
+            }
+
+            .bgcirc:before {
+                width: 35% !important;
+            }
+
+            .bgcirc2:before {
+                width: 35% !important;
+            }
+
+
+            .info-or {
+                padding: 15rem 0 30rem;
+                background: #fbfbfb;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+        }
+
+
+        .icon {
+            padding: 10px;
+            text-align: center;
+            width: 100px;
+            height: 98px;
+            line-height: 87px;
+            border-radius: 10rem;
+            color: #ffffff;
+            transition: .5s;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            font-size: 65px;
+        }
+
+        .icon:hover {
+            background: #1c635b;
+        }
+
+        .page-header .container h2 {
+            font-size: 50px;
+            line-height: 110px;
+        }
+
+        .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+            display: none !important;
+        }
+
+        .sideForm {
+            height: 40px !important;
+            padding: 0px 10px !important;
+            background-color: #ffffff;
+            border-radius: 25px;
+        }
+
+        .button {
+            background-color: #C29243 !important;
+            font-weight: 600;
+            width: 35%;
+        }
+
+        #sideFormParent {
+            padding: 5%;
+        }
+
+        .font {
+            font-size: 16px;
+        }
+
+        .closeButton {
+            color: white;
+            background-color: #C29243;
+            border-radius: 46px;
+            width: 35px;
+            height: 35px;
+            font-size: 20px;
+            border: none;
+        }
+
+        /* #offCanvas {
+            position: fixed;
+            top: 0;
+            right: -350px;
+            width: 400px;
+            height: 100%;
+            background-color: #4c3979;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: right 0.3s;
+            z-index: 99999;
+        } */
+
+        /* #containerContactForm {
+            display: flex;
+            position: fixed;
+            top: 0;
+            right: -355px;
+            width: 400px;
+            height: 100%;
+            color: white;
+            transition: right 0.3s;
+            z-index: 99999;
+
+        }
+
+        .fixed {
+            margin-top: 200px;
+            margin-bottom: 200px;
+            width: 50px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            background-color: #C29243;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .flex-item {
+            flex-grow: 1;
+            width: 400px;
+            height: 100%;
+            background-color: #0E5C64;
+            padding: 0px 30px 0px 10px;
+        } */
+
+        #contactForm {
+            position: absolute;
+            top: 240px;
+            right: 200px;
+            width: 380px;
+            height: 40%;
+            background-color: #4c3979;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            color: white;
+            transition: right 0.3s;
+            z-index: 5;
+            border-radius: 25px;
+        }
+
+        .sliderContent {
+            left: -140px ;
+        }
+
+        #buttonDiv {
+            text-align: center;
+        }
+
+        .divForm {
+            padding-top: 10px;
+        }
+
+        .navbar {
+            z-index: 20 !important;
+        }
+
+        #contactFormFooter {
+            width: 330px;
+
+        }
+
+        .card-deck {
+            padding: 0px 50px 100px 50px;
+        }
+
+        .cardStyle {
+            border-radius: 20px;
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+        }
+
+        .footerTestmonial {
+            color: #4c3979;
+            font-family: Satoshi Regular;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .card-footer {
+            background-color: white !important;
+            border-top: none !important;
+            border-bottom-left-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+        }
+
+        .telh {
+            font-size: 12px !important;
+        }
+
+        .iconp {
+            font-size: 35px;
+        }
+
+        .my-icon {
+            position: fixed;
+            right: -440px;
+            bottom: 100px;
+            z-index: 1000;
+        }
+
+        .navbar .site-menu{
+            margin-left: auto !important;
+        }
