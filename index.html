@@ -939,6 +939,13 @@
             for (var i = 0; i < toastMessages.length; i++) {
                 toastMessages[i].style.display = "block";
             }
+            setTimeout(function () {
+                console.log("timeout")
+                var toastMessages = document.getElementsByClassName("toast-message");
+                for (var i = 0; i < toastMessages.length; i++) {
+                    toastMessages[i].style.display = "none";
+                }
+            }, 4000);
         }
         function toggleMenu() {
             const offCanvas = document.getElementById('containerContactForm');
