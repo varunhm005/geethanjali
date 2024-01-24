@@ -1499,6 +1499,25 @@ responsive
 
         @media only screen and (min-width: 425px) and (max-width: 765px) {
 
+            .bgcirc:before {
+                position: absolute;
+                content: '';
+                height: 94px;
+                width: -webkit-fill-available;
+                left: -106px;
+                top: 20px;
+                z-index: -1;
+                border-radius: 0px !important;
+            }
+
+            .reliableText {
+                display: none;
+            }
+
+            .reliablebody {
+                padding-top: 0px !important;
+            }
+
             .logo {
                 width: 270px;
             }
@@ -1562,6 +1581,13 @@ responsive
 
         @media only screen and (min-width: 765px) and (max-width: 1024px) {
 
+            .reliableText {
+                display: none;
+            }
+
+            .reliablebody {
+                padding-top: 0px !important;
+            }
 
             .sideBarLogo {
                 display: none !important;
@@ -1662,10 +1688,11 @@ responsive
         }
 
         @media only screen and (min-width: 1024px) and (max-width: 1300px) {
-            .headerContainer{
+            .headerContainer {
                 max-width: 100%;
             }
-            .navbar .site-menu{
+
+            .navbar .site-menu {
                 /* margin-left: 0; */
                 /* padding: 0; */
             }
@@ -1873,27 +1900,121 @@ responsive
 
         @media (min-width: 1300px) and (max-width: 1650px) {
 
+            .byg {
+                margin-top: -135px;
+            }
+
+            .cardContent {
+                z-index: 1111;
+            }
+
             #contactForm {
-            position: absolute;
-            top: 50% !important;
-            left: 37%;
-            width: 300px;
-            height: auto;
-            background-color: #4c3979;
-            padding: 20px;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-            color: white;
-            transition: right 0.3s;
-            z-index: 5;
-            border-radius: 25px;
+                position: absolute;
+                top: 50% !important;
+                left: 37%;
+                width: 300px;
+                height: auto;
+                background-color: #4c3979;
+                padding: 20px;
+                box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+                color: white;
+                transition: right 0.3s;
+                z-index: 5;
+                border-radius: 25px;
+            }
+
+            .sliderContent {
+                left: 0px !important;
+                top: -110px !important;
+            }
+
+            .headerContainer {
+                max-width: 100%;
+            }
+
+            .bgcirc:before {
+                width: 35% !important;
+            }
+
+            .bgcirc2:before {
+                width: 35% !important;
+            }
+
+
+            .info-or {
+                padding: 15rem 0 30rem;
+                background: #fbfbfb;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
+            span.menu-service {
+                color: #4c3979;
+            }
+
+            .iconk {
+                color: #4c3979;
+            }
+
+            .iconk:hover {
+                color: #1c635b;
+            }
+
+            .iconleft {
+                color: #4c3979;
+            }
+
+            .icon {
+                background: #4c3979;
+            }
+
         }
 
-        .sliderContent {
-            left: 0px !important;
-    top: -110px !important;
-        }
+        @media (min-width: 1650px) and (max-width: 2000px) {
 
-            .headerContainer{
+            .byg {
+                margin-top: -135px;
+            }
+
+            .cardContent {
+                z-index: 1111;
+            }
+
+            #contactForm {
+                position: absolute;
+                top: 50% !important;
+                left: 37%;
+                width: 300px;
+                height: auto;
+                background-color: #4c3979;
+                padding: 20px;
+                box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+                color: white;
+                transition: right 0.3s;
+                z-index: 5;
+                border-radius: 25px;
+            }
+
+            .sliderContent {
+                left: 0px !important;
+                top: -110px !important;
+            }
+
+            .headerContainer {
                 max-width: 100%;
             }
 
@@ -2073,7 +2194,7 @@ responsive
         }
 
         .sliderContent {
-            left: -140px ;
+            left: -140px;
         }
 
         #buttonDiv {
@@ -2133,6 +2254,6 @@ responsive
             z-index: 1000;
         }
 
-        .navbar .site-menu{
+        .navbar .site-menu {
             margin-left: auto !important;
         }
