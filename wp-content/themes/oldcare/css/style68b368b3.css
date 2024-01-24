@@ -16816,7 +16816,7 @@ input#wp-block-search__input-1 {
     background-color: #fff;
     margin-top: -6rem; }
 
-  .bgcirc2:before {
+  /* .bgcirc2:before {
     position: absolute;
     content: '';
     height: 94px;
@@ -16834,7 +16834,7 @@ input#wp-block-search__input-1 {
     left: -304px;
     top: 20px;
     z-index: -1;
-    border-radius: 100px; }
+    border-radius: 100px; } */
 
   .imagerotate {
     position: absolute;

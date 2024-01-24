@@ -16,10 +16,10 @@
 
     // LOGO HOVER
     $(".site-menu ul li").hover(function () {
-        $('.site-menu ul li').not(this).css({
-          "opacity": "1"
-        });
-      },
+      $('.site-menu ul li').not(this).css({
+        "opacity": "1"
+      });
+    },
       function () {
         $('.site-menu ul li').not(this).css({
           "opacity": "1"
@@ -30,42 +30,77 @@
     // HAMBURGER MENU
     "use strict";
 
-    var main = function() {
-      $('.hamburger-menu').click(function(e) {
+    var main = function () {
+
+      document.addEventListener('click', function (event) {
+        var sidebar = document.getElementById('sidebar');
+        var hamburger = document.getElementById('hamburger-menu');
+        
+
+        console.log("sidebar", hamburger)
+
+        // Check if the clicked area is not the sidebar and not a child of the sidebar
+        if (!sidebar.contains(event.target) && !hamburger.contains(event.target) ) {
+          // Your code for handling clicks outside the sidebar
+          console.log('Clicked outside the sidebar!');
+          // var hamburgerElements = document.querySelectorAll('.hamburger-menu');
+          var elements = document.getElementsByClassName('hamburger-menu')
+          for (var i = 0; i < elements.length; i++) {
+            // Get the data-id attribute value
+            var dataId = elements[i].getAttribute('data-id');
+
+            // Do something with the dataId, like printing it
+            console.log(dataId);
+            if (dataId == "0") {
+              closeMenu(function () {
+                $(document).off("click.menu");
+              });
+              elements[i].setAttribute('data-id', "1")
+            }
+
+          }
+
+
+        }
+      });
+
+      $('.hamburger-menu').click(function (e) {
         console.log("clicked")
         var elements = document.getElementsByClassName('hamburger-menu')
         for (var i = 0; i < elements.length; i++) {
           // Get the data-id attribute value
           var dataId = elements[i].getAttribute('data-id');
-          
+
           // Do something with the dataId, like printing it
           console.log(dataId);
-          if(dataId =="1"){
-          $('.side-widget').animate({
-                left: "0px"})
-                elements[i].setAttribute('data-id',"0")
-              }else{
-                closeMenu(function() {
-                  $(document).off("click.menu");
-              });
-              elements[i].setAttribute('data-id',"1")
-              }
-
-      }
-      });
-    
-    
-      
-        function closeMenu(callback) {  
+          if (dataId == "1") {
             $('.side-widget').animate({
-              left: "-100%"}, 200);
-              $('.hamburger-menu').show();
-           if ($.isFunction(callback)) callback();
-        }    
-      
-            
+              left: "0px"
+            })
+            elements[i].setAttribute('data-id', "0")
+          } else {
+            closeMenu(function () {
+              $(document).off("click.menu");
+            });
+            elements[i].setAttribute('data-id', "1")
+          }
+
+        }
+      });
+
+
+
+      function closeMenu(callback) {
+        $('.side-widget').animate({
+          left: "-100%"
+        }, 200);
+        $('.hamburger-menu').show();
+        if ($.isFunction(callback)) callback();
+      }
+
+
     };
-    
+
     $(document).ready(main);
 
     // PAGE TRANSITION
@@ -143,7 +178,7 @@
       el: '.swiper-pagination',
       clickable: true,
     },
-	   breakpoints: {
+    breakpoints: {
       640: {
         slidesPerView: 1,
         spaceBetween: 15,

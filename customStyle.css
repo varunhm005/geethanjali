@@ -1420,7 +1420,14 @@ responsive
 
             .navbar .hamburger-menu {
                 background-color: #C29243;
-                border-radius: 20px;
+                border-radius: 8px;
+                left: -5%;
+                top: 10px;
+            }
+
+            .navbar .logo {
+                margin-right: auto;
+                padding: 40px 0px 22px 0px;
             }
 
             .hamburger-menu {
@@ -1482,7 +1489,14 @@ responsive
 
             .navbar .hamburger-menu {
                 background-color: #C29243;
-                border-radius: 20px;
+                border-radius: 8px;
+                left: -5%;
+                top: 10px;
+            }
+
+            .navbar .logo {
+                margin-right: auto;
+                padding: 40px 0px 22px 0px;
             }
 
             .hamburger-menu {
@@ -1563,8 +1577,9 @@ responsive
 
             .navbar .hamburger-menu {
                 background-color: #C29243;
-                border-radius: 20px;
+                border-radius: 8px;
                 left: -5%;
+                top: 10px;
             }
 
             .hamburger-menu {
@@ -1574,6 +1589,11 @@ responsive
 
             .sideBarLogo {
                 display: none !important;
+            }
+
+            .navbar .logo {
+                margin-right: auto;
+                padding: 40px 0px 22px 0px;
             }
 
 
@@ -1907,6 +1927,14 @@ responsive
             .cardContent {
                 z-index: 1111;
             }
+
+            /* .bgcirc:before {
+                width: 40% !important;
+            }
+
+            .bgcirc2:before {
+                width: 40% !important;
+            } */
 
             #contactForm {
                 position: absolute;

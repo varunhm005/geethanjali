@@ -6,11 +6,14 @@
 
 <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NCC44FLQ');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NCC44FLQ');</script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,11 +87,30 @@
 
 
 </head>
+<style>
+    .toast-container {
+        position: fixed;
+        top: 8px;
+        left: 50px;
+        z-index: 9999;
+    }
+
+    .toast-message {
+        display: none;
+        background-color: #333;
+        color: white;
+        padding: 5px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        opacity: 0.9;
+        transition: opacity 0.6s;
+    }
+</style>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCC44FLQ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCC44FLQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="my-icon">
         <a aria-label="Chat on WhatsApp" target="_blank" id="" href="https://wa.me/8939128939"> <img
@@ -122,7 +144,7 @@
     </div>
     <div class="page-transition"></div>
     <aside class="side-widget">
-        <div class="inner">
+        <div class="inner" id="sidebar">
             <!-- Logo Menu Mobile -->
             <div class="logo" style="background-color: #4c3979;
     border-radius: 30px;"> <a href="index.html"><img class="sideBarLogo"
@@ -225,7 +247,8 @@
                     </div>
                 </div>
             </div>
-            <div class="hamburger-menu" data-id="1"> <span></span> <span></span> <span></span> </div>
+            <div class="hamburger-menu" id="hamburger-menu" data-id="1"> <span></span> <span></span> <span></span>
+            </div>
 
             <div class="navbar-button">
                 <div class="bgcirc2">
@@ -240,16 +263,21 @@
     <header class="slider">
         <div class="main-slider">
             <div id="contactForm">
-                <form id="sideFormParent">
+                <form id="sideFormParent" method="post" id="form" action="sendMail.php">
+                    <div id="toast" class="toast-container">
+                        <div class="toast-message">
+                            Message send successfully
+                        </div>
+                    </div>
                     <div class="form-group divForm">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control sideForm font" id="name" aria-describedby="emailHelp"
-                            placeholder="Enter Your Name">
+                        <input type="text" class="form-control sideForm font" name="name" aria-describedby="emailHelp"
+                            placeholder="Enter Your Name" required>
                     </div>
                     <div class="form-group divForm">
                         <label for="exampleInputPassword1">Mobile Number</label>
-                        <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
-                            placeholder="">
+                        <input type="number" class="form-control sideForm font" name="mobileNumber" placeholder=""
+                            required>
                     </div>
                     <div id="buttonDiv" class="divForm">
                         <button type="submit" class="btn sideForm button">Submit</button>
@@ -784,16 +812,16 @@
                 <div class="col-lg-4 cce middleElement">
                     <!-- end logo -->
                     <div id="contactFormFooter">
-                        <form id="sideFormParentFooter">
+                        <form id="sideFormParentFooter" method="post" id="form" action="sendMail.php">
                             <div class="form-group divForm">
                                 <label for="exampleInputEmail1">Name</label>
-                                <input type="text" class="form-control sideForm font" id="name"
-                                    aria-describedby="emailHelp" placeholder="Enter Your Name">
+                                <input type="text" class="form-control sideForm font" name="name"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Name" required>
                             </div>
                             <div class="form-group divForm">
                                 <label for="exampleInputPassword1">Mobile Number</label>
-                                <input type="number" class="form-control sideForm font" id="exampleInputPassword1"
-                                    placeholder="">
+                                <input type="number" class="form-control sideForm font" name="mobileNumber"
+                                    placeholder="" required>
                             </div>
                             <div id="buttonDiv" class="divForm">
                                 <button type="submit" class="btn sideForm button">Submit</button>
@@ -841,6 +869,38 @@
     <script src='wp-content/themes/oldcare/custom68b368b3.js?ver=1' id='custom-js'></script>
     <!--Cursor Script-->
     <script>
+
+        function sendData() {
+            // Get the input value
+            var name = document.getElementById('name').value;
+            var mobileNumber = document.getElementById('mobileNumber').value;
+
+            console.log("name", name)
+
+            var formData = new FormData();
+            formData.append('name', name);
+            formData.append('mobileNumber', mobileNumber);
+
+            console.log("formData", formData)
+
+            // Using the fetch API to send data to process.php
+            fetch('sendMail.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded', // Adjust content type based on your needs
+                },
+                body: formData, // Encode data if needed
+            })
+                .then(response => response.text())
+                .then(result => {
+                    // Handle the result (response) from process.php
+                    console.log('Result from process.php:', result);
+                })
+                .catch(error => {
+                    console.error('Error sending data:', error);
+                });
+        }
+
         init_pointer({
 
         })
@@ -873,6 +933,15 @@
     </style>
     <!-- GetButton.io widget -->
     <script type="text/javascript">
+        var param_array = window.location.href.split('?')[1].split('&');
+        if (param_array[0] == "messageSend=1") {
+            var toastMessages = document.getElementsByClassName("toast-message");
+
+            // Loop through the collection and set the style for each element
+            for (var i = 0; i < toastMessages.length; i++) {
+                toastMessages[i].style.display = "block";
+            }
+        }
         function toggleMenu() {
             const offCanvas = document.getElementById('containerContactForm');
             // Toggle off-canvas menu visibility
