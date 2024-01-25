@@ -1405,7 +1405,6 @@ responsive
             #sideFormParent {
                 padding: 5% !important;
             }
-            }
 
             .footer {
                 padding-top: 0px;
@@ -1443,7 +1442,7 @@ responsive
 
         }
 
-        @media only screen and (min-width: 375px) and (max-width: 425px) {
+        @media only screen and (min-width: 374px) and (max-width: 425px) {
 
             .logo {
                 width: 270px;
@@ -1661,7 +1660,7 @@ responsive
 
             .navbar .hamburger-menu {
                 background-color: #C29243;
-                border-radius: 20px;
+                border-radius: 10px;
             }
 
             .hamburger-menu {
@@ -2287,4 +2286,8 @@ responsive
 
         .navbar .site-menu {
             margin-left: auto !important;
+        }
+
+        .headerContainer{
+            padding-top: 15px;
         }
