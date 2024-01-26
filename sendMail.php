@@ -46,8 +46,8 @@ try {
     $destinationURL = 'index.html?messageSend=1';
 
     // Perform the redirect
-    header('Location: ' . $destinationURL);
-    echo 'Message has been sent';
+    // header('Location: ' . $destinationURL);
+    echo '1';
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo '0';
 }

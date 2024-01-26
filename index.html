@@ -103,6 +103,21 @@
         transition: opacity 0.6s;
         text-align: center;
     }
+
+    .toast-messageFooter {
+        display: none;
+        background-color: #333;
+        color: white;
+        padding: 5px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        opacity: 0.9;
+        transition: opacity 0.6s;
+        text-align: center;
+    }
+    #toastFooter{
+        width: 70%;
+    }
 </style>
 
 <body>
@@ -272,19 +287,21 @@
                         Message send successfully
                     </div>
                 </div>
-                <form id="sideFormParent" method="post" id="form" action="sendMail.php">
+                <form id="sideFormParent">
                     <div class="form-group divForm">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control sideForm font" name="name" aria-describedby="emailHelp"
+                        <input type="text" class="form-control sideForm font" name="name" id="topFormName" aria-describedby="emailHelp"
                             placeholder="Enter Your Name" required>
                     </div>
                     <div class="form-group divForm">
                         <label for="exampleInputPassword1">Mobile Number</label>
-                        <input type="number" class="form-control sideForm font" name="mobileNumber" placeholder=""
+                        <input type="number" class="form-control sideForm font" id="topFormPhone" name="mobileNumber" placeholder=""
                             required>
                     </div>
                     <div id="buttonDiv" class="divForm">
-                        <button type="submit" class="btn sideForm button">Submit</button>
+                        <button type="submit" id="topFormButton" class="btn sideForm button">
+                            Submit
+                        </button>
                     </div>
                 </form>
             </div>
@@ -815,20 +832,25 @@
 
                 <div class="col-lg-4 cce middleElement">
                     <!-- end logo -->
+                    <div id="toastFooter" class="toast-container">
+                        <div class="toast-messageFooter">
+                            Message send successfully
+                        </div>
+                    </div>
                     <div id="contactFormFooter">
                         <form id="sideFormParentFooter" method="post" id="form" action="sendMail.php">
                             <div class="form-group divForm">
                                 <label for="exampleInputEmail1">Name</label>
-                                <input type="text" class="form-control sideForm font" name="name"
+                                <input type="text" class="form-control sideForm font" id="bottomFormName" name="name"
                                     aria-describedby="emailHelp" placeholder="Enter Your Name" required>
                             </div>
                             <div class="form-group divForm">
                                 <label for="exampleInputPassword1">Mobile Number</label>
-                                <input type="number" class="form-control sideForm font" name="mobileNumber"
+                                <input type="number" class="form-control sideForm font" id="bottomFormPhone" name="mobileNumber"
                                     placeholder="" required>
                             </div>
                             <div id="buttonDiv" class="divForm">
-                                <button type="submit" class="btn sideForm button">Submit</button>
+                                <button type="submit" class="btn sideForm button" id="bottomFormButton">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -874,37 +896,75 @@
     <!--Cursor Script-->
     <script>
 
-        function sendData() {
-            // Get the input value
-            var name = document.getElementById('name').value;
-            var mobileNumber = document.getElementById('mobileNumber').value;
+        $(document).ready(function () {
+            $('#sideFormParent').submit(function (e) {
+                $('#topFormButton').html("Please wait...")
+                e.preventDefault(); // Prevent the form from submitting the traditional way
 
-            console.log("name", name)
+                // Send the form data using AJAX
+                $.ajax({
+                    type: 'POST',
+                    url: 'sendMail.php',
+                    data: $('#sideFormParent').serialize(), // Serialize the form data
+                    success: function (response) {
+                        if (response == "1") {
+                            $('#topFormName').val(''); // Empty the name input
+                            $('#topFormPhone').val(''); 
+                            var toastMessages = document.getElementsByClassName("toast-message");
 
-            var formData = new FormData();
-            formData.append('name', name);
-            formData.append('mobileNumber', mobileNumber);
-
-            console.log("formData", formData)
-
-            // Using the fetch API to send data to process.php
-            fetch('sendMail.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded', // Adjust content type based on your needs
-                },
-                body: formData, // Encode data if needed
-            })
-                .then(response => response.text())
-                .then(result => {
-                    // Handle the result (response) from process.php
-                    console.log('Result from process.php:', result);
-                })
-                .catch(error => {
-                    console.error('Error sending data:', error);
+                            // Loop through the collection and set the style for each element
+                            for (var i = 0; i < toastMessages.length; i++) {
+                                toastMessages[i].style.display = "block";
+                            }
+                            setTimeout(function () {
+                                var toastMessages = document.getElementsByClassName("toast-message");
+                                for (var i = 0; i < toastMessages.length; i++) {
+                                    toastMessages[i].style.display = "none";
+                                }
+                            }, 4000);
+                            $('#topFormButton').html("Submit");
+                        }
+                        // Display the response from the PHP script
+                    }
                 });
-        }
+            });
+        });
 
+        $(document).ready(function () {
+            $('#sideFormParentFooter').submit(function (e) {
+                $('#bottomFormButton').html("Please wait...")
+                e.preventDefault(); // Prevent the form from submitting the traditional way
+
+                // Send the form data using AJAX
+                $.ajax({
+                    type: 'POST',
+                    url: 'sendMail.php',
+                    data: $('#sideFormParent').serialize(), // Serialize the form data
+                    success: function (response) {
+                        if (response == "1") {
+                            $('#bottomFormName').val(''); // Empty the name input
+                            $('#bottomFormPhone').val(''); 
+                            var toastMessages = document.getElementsByClassName("toast-messageFooter");
+
+                            // Loop through the collection and set the style for each element
+                            for (var i = 0; i < toastMessages.length; i++) {
+                                toastMessages[i].style.display = "block";
+                            }
+                            setTimeout(function () {
+                                var toastMessages = document.getElementsByClassName("toast-messageFooter");
+                                for (var i = 0; i < toastMessages.length; i++) {
+                                    toastMessages[i].style.display = "none";
+                                }
+                            }, 4000);
+                            $('#bottomFormButton').html("Submit");
+                        }
+                        // Display the response from the PHP script
+                    }
+                });
+            });
+        });
+
+        
         init_pointer({
 
         })
@@ -1000,7 +1060,43 @@
     </script>
     <!--End of Tawk.to Script-->
 
+    <style>
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 5px solid #3498db;
+            width: 20px;
+            height: 20px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite;
+            display: inline-block;
+            position: relative;
+            top: 5px;
+            right: 5px;
+        }
 
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 
 
 </body>
