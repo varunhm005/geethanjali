@@ -2282,6 +2282,7 @@ responsive
             left: 25px;
             bottom: 100px;
             z-index: 1000;
+            width: 50px;
         }
 
         .call-icon {
@@ -2292,6 +2293,7 @@ responsive
             text-align: right;
             animation: shake 1s;
             animation-iteration-count: infinite;
+            width: 50px;
         }
           
           @keyframes shake {
