@@ -519,7 +519,8 @@ body {
 
 .services1 {
   padding: 5rem 0 5rem;
-  background: transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll; }
+  /* background: transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll;  */
+}
   @media only screen and (max-width: 56.25em) {
     .services1 {
       padding: 1rem 0 60rem; } }
@@ -7082,12 +7083,15 @@ img.haber-gorsel {
     @media only screen and (max-width: 56.25em) {
       .paketler__gorsel {
         height: 44rem; } }
-    .paketler__gorsel--1 {
-      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
+    /* .paketler__gorsel--1 {
+      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
+     }
     .paketler__gorsel--2 {
-      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
+      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
+     }
     .paketler__gorsel--3 {
-      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
+      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
+     } */
   .paketler__baslik {
     font-size: 2.2rem;
     font-weight: 300;
@@ -7219,7 +7223,7 @@ img.haber-gorsel {
     .paketler2__on--arkayazi {
       transform: rotateY(180deg);
       border-radius: 0.3rem; }
-      .paketler2__on--arkayazi-1 {
+      /* .paketler2__on--arkayazi-1 {
         background: linear-gradient(to right bottom, rgba(4, 54, 119, 0.842), #043677), transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll;
         border: 1px solid #fff; }
       .paketler2__on--arkayazi-2 {
@@ -7234,9 +7238,9 @@ img.haber-gorsel {
       .paketler2__on--arkayazi-5 {
         background: linear-gradient(to right bottom, rgba(4, 54, 119, 0.842), #043677), transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll;
         border: 1px solid #fff; }
-      .paketler2__on--arkayazi-6 {
-        background: linear-gradient(to right bottom, rgba(4, 54, 119, 0.842), #043677), transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll;
-        border: 1px solid #fff; }
+      .paketler2__on--arkayazi-6 { */
+        /* background: linear-gradient(to right bottom, rgba(4, 54, 119, 0.842), #043677), transparent url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) center center/cover no-repeat scroll;
+        border: 1px solid #fff; } */
   .paketler2:hover .paketler2__on--onyazi {
     transform: rotateY(-180deg); }
   .paketler2:hover .paketler2__on--arkayazi {
@@ -7407,7 +7411,7 @@ img.haber-gorsel {
       background-color: #fff; }
     .paketler3__on--arkayazi {
       transform: rotateY(180deg); }
-      .paketler3__on--arkayazi-1 {
+      /* .paketler3__on--arkayazi-1 {
         background-image: linear-gradient(to right bottom, rgba(26, 95, 191, 0.5), rgba(4, 46, 114, 0.986)), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
         background-repeat: no-repeat; }
       .paketler3__on--arkayazi-2 {
@@ -7415,7 +7419,7 @@ img.haber-gorsel {
         background-repeat: no-repeat; }
       .paketler3__on--arkayazi-3 {
         background-image: linear-gradient(to right bottom, rgba(26, 95, 191, 0.863), rgba(4, 46, 114, 0.986)), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat; } */
   .paketler3:hover .paketler3__on--onyazi {
     transform: rotateY(-180deg); }
   .paketler3:hover .paketler3__on--arkayazi {
@@ -7431,7 +7435,7 @@ img.haber-gorsel {
     @media only screen and (max-width: 56.25em) {
       .paketler3__gorsel {
         height: 44rem; } }
-    .paketler3__gorsel--1 {
+    /* .paketler3__gorsel--1 {
       background-image: linear-gradient(to right bottom, #175ba5, #043577), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
       padding: 5px; }
     .paketler3__gorsel--2 {
@@ -7439,7 +7443,7 @@ img.haber-gorsel {
       padding: 5px; }
     .paketler3__gorsel--3 {
       background-image: linear-gradient(to right bottom, #175ba5, #043577), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
-      padding: 5px; }
+      padding: 5px; } */
   .paketler3__baslik {
     font-size: 2.2rem;
     font-weight: 300;
@@ -7617,12 +7621,12 @@ img.haber-gorsel {
     @media only screen and (max-width: 56.25em) {
       .paketler4__gorsel {
         height: 44rem; } }
-    .paketler4__gorsel--1 {
+    /* .paketler4__gorsel--1 {
       background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
     .paketler4__gorsel--2 {
       background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
     .paketler4__gorsel--3 {
-      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); }
+      background-image: linear-gradient(to right bottom, #0e0e0e, #1c1a1a), url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); } */
   .paketler4__baslik {
     font-size: 2.2rem;
     font-weight: 300;
@@ -8447,7 +8451,7 @@ h3.r1 {
   position: fixed;
   top: 26px;
   right: 109px;
-  background: #ffffff url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) no-repeat 15px center;
+  /* background: #ffffff url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) no-repeat 15px center; */
   background-size: 35px 35px;
   width: 72px;
   height: 65px;
@@ -8517,7 +8521,7 @@ h3.r1 {
   position: absolute;
   top: 0;
   right: 10px;
-  background: url("https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html") no-repeat 15px center;
+  /* background: url("https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html") no-repeat 15px center; */
   background-size: 25px 25px;
   width: 60px;
   height: 60px;
@@ -10291,8 +10295,8 @@ button[type="submit"] i {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 /* mouse grab icon */
-.grabbing {
-  cursor: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) 8 8, move; }
+/* .grabbing {
+  cursor: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) 8 8, move; } */
 
 /* fix */
 .owl-carousel .owl-wrapper,
@@ -10580,9 +10584,9 @@ button[type="submit"] i {
   font-size: 12px; }
 
 /* preloading images */
-.owl-item.loading {
+/* .owl-item.loading {
   min-height: 150px;
-  background: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) no-repeat center center; }
+  background: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html) no-repeat center center; } */
 
 /* CUSTOM USER OPTIONS */
 .carousel-container {
@@ -14420,7 +14424,7 @@ p.countb {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-image: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html);
+  /* background-image: url(https://garantiwebtasarim.com/aeste-aesthetic-plastic-surgery/404.html); */
   background-size: cover;
   border-width: 0 1px 1px 1px;
   border-radius: 60% / 50%;
